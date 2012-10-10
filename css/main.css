@@ -5,7 +5,7 @@
    ========================================================================== */
 
 body{
-	background-color: #3B3B3B;
+	background-color: #1E1E1E;
 	background-image: url('../img/background.jpg');
 	background-position:center top; 
 	background-repeat:no-repeat;
@@ -59,6 +59,10 @@ body{
   font-weight: 200;
   line-height: 27px;
   color: transparent;
+}
+
+.btn-group {
+  padding-bottom: 30px;
 }
 
 .navbar {
@@ -116,7 +120,7 @@ h1.main {
 
 h1.head{
   text-align:center;
-  font-family: rockwell;
+  font-family: Rockwell, "Courier New", Courier, Georgia, Times, "Times New Roman", serif;
   padding-top: 100px;
   padding-bottom: 20px;
   margin-top: 0px;
@@ -219,8 +223,6 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.09);
 -webkit-font-smoothing: antialiased;
 }
 
-
-
 #maincontent {
 background: url('../img/grid.png');
 }
@@ -232,8 +234,29 @@ footer {
   padding-bottom: 50px
 }
 
+#agenda-table {
+  background-color: lightgrey;
+
+}
+
+.agenda-map-wrapper {
+  padding-top: 100px;
+}
 
 
+.tabLabel {
+position: relative;
+padding: 5px 0px 10px;
+margin: 0 0 0 0;
+text-align: center;
+font-weight: bold;
+z-index: 3 !important;
+font-size: 20px;
+}
 
-
+.shadow {
+  -webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    2px 2px 5px rgba(50, 50, 50, 0.75);
+  box-shadow:         2px 2px 5px rgba(50, 50, 50, 0.75);
+}
 
